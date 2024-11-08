@@ -2,6 +2,11 @@
 Changelog for package novatel_gps_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add dual antenna diagnostics (`#124 <https://github.com/swri-robotics/novatel_gps_driver/issues/124>`_)
+* Contributors: bgfxc4
+
 4.1.3 (2024-10-11)
 ------------------
 
