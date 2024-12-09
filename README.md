@@ -1,4 +1,4 @@
-NovAtel GPS Driver [![Build Status](https://travis-ci.org/swri-robotics/novatel_gps_driver.svg?branch=dashing-devel)](https://travis-ci.org/swri-robotics/novatel_gps_driver)
+NovAtel GPS Driver
 ==================
 
 Overview
@@ -248,3 +248,11 @@ can parse the log and return the appropriate ROS message.
     3. Modify `NovatelGpsNodelet::CheckDeviceForData` to retrieve messages from
     the appropriate buffer and publish them.
 6. Add a new unit test to `novatel_gps_driver/tests/parser_tests.cpp` to test your parser.
+
+Build Status
+--------
+ROS2 Distro | Branch | Build status | Released packages
+:---------: | :----: | :----------: | :---------------:
+**Humble** | [`humble`](https://github.com/swri-robotics/novatel_gps_driver/tree/ros2-devel) | [![CI](https://github.com/swri-robotics/novatel_gps_driver/workflows/CI/badge.svg?branch=ros2-devel)](https://github.com/swri-robotics/novatel_gps_driver/blob/ros2-devel/.github/workflows/main.yml?branch=ros2-devel) <br /> [![ROS2 Build Farm](http://build.ros2.org/buildStatus/icon?job=Hdev__novatel_gps_driver__ubuntu_jammy_amd64)](https://build.ros2.org/job/Hdev__novatel_gps_driver__ubuntu_jammy_amd64/) | [novatel-gps-driver](https://index.ros.org/p/novatel_gps_driver/github-swri-robotics-novatel_gps_driver/#humble) <br /> [novatel-gps-msgs](https://index.ros.org/p/novatel_gps_msgs/github-swri-robotics-novatel_gps_driver/#humble)
+**Jazzy** | [`jazzy`](https://github.com/swri-robotics/novatel_gps_driver/tree/ros2-devel) | [![CI](https://github.com/swri-robotics/novatel_gps_driver/workflows/CI/badge.svg?branch=ros2-devel)](https://github.com/swri-robotics/novatel_gps_driver/blob/ros2-devel/.github/workflows/main.yml?branch=ros2-devel) <br /> [![ROS2 Build Farm](http://build.ros2.org/buildStatus/icon?job=Jdev__novatel_gps_driver__ubuntu_noble_amd64)](https://build.ros2.org/job/Jdev__novatel_gps_driver__ubuntu_noble_amd64/) | [novatel-gps-driver](https://index.ros.org/p/novatel_gps_driver/github-swri-robotics-novatel_gps_driver/#jazzy) <br /> [novatel-gps-msgs](https://index.ros.org/p/novatel_gps_msgs/github-swri-robotics-novatel_gps_driver/#jazzy)
+**Rolling** | [`rolling`](https://github.com/swri-robotics/novatel_gps_driver/tree/ros2-devel) | [![CI](https://github.com/swri-robotics/novatel_gps_driver/workflows/CI/badge.svg?branch=ros2-devel)](https://github.com/swri-robotics/novatel_gps_driver/blob/ros2-devel/.github/workflows/main.yml?branch=ros2-devel) <br /> [![ROS2 Build Farm](http://build.ros2.org/buildStatus/icon?job=Rdev__novatel_gps_driver__ubuntu_noble_amd64)](https://build.ros2.org/job/Rdev__novatel_gps_driver__ubuntu_noble_amd64/) | [novatel-gps-driver](https://index.ros.org/p/novatel_gps_driver/github-swri-robotics-novatel_gps_driver/#rolling) <br /> [novatel-gps-msgs](https://index.ros.org/p/novatel_gps_msgs/github-swri-robotics-novatel_gps_driver/#rolling)
