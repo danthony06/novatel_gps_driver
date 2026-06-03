@@ -2,8 +2,8 @@
 Changelog for package novatel_oem628
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.3.0 (2026-06-03)
+------------------
 * Updating for Lyrical (`#130 <https://github.com/swri-robotics/novatel_gps_driver/issues/130>`_)
   * Updating CMakeList for new ament functionality
   * Updating boost usage for new versions of boost
