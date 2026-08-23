@@ -242,8 +242,11 @@ namespace novatel_gps_driver
       range_pub_ = this->create_publisher<novatel_gps_msgs::msg::Range>("range", rclcpp::QoS(100));
     }
 
+    RCLCPP_WARN_ONCE(this->get_logger(),
+      "novatel_gps_msgs::msg::Time is deprecated and will be replaced by NovatelTime in a future release.");
     if (publish_time_messages_)
     {
+      #pragma message("novatel_gps_msgs::msg::Time is deprecated and will be replaced by NovatelTime in a future release.")
       time_pub_ = this->create_publisher<novatel_gps_msgs::msg::Time>("time", rclcpp::QoS(100));
     }
 
