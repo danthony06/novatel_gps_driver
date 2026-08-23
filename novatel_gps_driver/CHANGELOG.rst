@@ -2,8 +2,8 @@
 Changelog for package novatel_oem628
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.3.1 (2026-08-23)
+------------------
 * Add deprecation warning (`#135 <https://github.com/swri-robotics/novatel_gps_driver/issues/135>`_)
 * Removing swri_roscpp and API updates (`#134 <https://github.com/swri-robotics/novatel_gps_driver/issues/134>`_)
 * Contributors: David Anthony
