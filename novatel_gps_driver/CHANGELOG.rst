@@ -2,8 +2,8 @@
 Changelog for package novatel_oem628
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.0.0 (2026-08-23)
+------------------
 * rolling compatibility updates (`#131 <https://github.com/swri-robotics/novatel_gps_driver/issues/131>`_)
   * rolling compatibility updates
   * Updating for API changes to ament_index_cpp
