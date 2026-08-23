@@ -2,6 +2,13 @@
 Changelog for package novatel_gps_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* rolling compatibility updates (`#131 <https://github.com/swri-robotics/novatel_gps_driver/issues/131>`_)
+  * rolling compatibility updates
+  * Updating for API changes to ament_index_cpp
+* Contributors: David Anthony
+
 4.3.0 (2026-06-03)
 ------------------
 
